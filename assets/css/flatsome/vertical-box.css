@@ -1,0 +1,20 @@
+@media (max-width: 549px) {
+  .box-blog-post:not(.box-shade):not(.box-overlay):not(.box-label):not(.box-badge) {
+    display: flex;
+  }
+  .row.has-shadow .box-blog-post:not(.box-shade):not(.box-overlay):not(.box-label):not(.box-badge) {
+    padding: 10px !important;
+  }
+  .box-blog-post:not(.box-shade):not(.box-overlay):not(.box-label):not(.box-badge) .box-image {
+    width: 30% !important;
+  }
+  .box-blog-post:not(.box-shade):not(.box-overlay):not(.box-label):not(.box-badge) .box-image .image-cover {
+    padding-top: 100% !important;
+  }
+  .box-blog-post:not(.box-shade):not(.box-overlay):not(.box-label):not(.box-badge) .box-text {
+    width: 70% !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin-top: 0 !important;
+  }
+}/*# sourceMappingURL=vertical-box.css.map */

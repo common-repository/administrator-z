@@ -1,0 +1,126 @@
+body.pack2 .button.is-outline,
+body.pack2 input[type=submit].is-outline,
+body.pack2 input[type=reset].is-outline,
+body.pack2 input[type=button].is-outline {
+  border-width: 1px;
+}
+body.pack2 .circle,
+body.pack2 .round,
+body.pack2 a.remove,
+body.pack2 a.icon-remove,
+body.pack2 .badge-circle-inside .badge-inner,
+body.pack2 .badge-circle .badge-inner,
+body.pack2 .slider-nav-circle .flickity-prev-next-button svg,
+body.pack2 .slider-nav-circle .flickity-prev-next-button .arrow,
+body.pack2 .tagcloud a {
+  border-radius: 0px !important;
+  border-width: 1px;
+}
+body.pack2 .slider-nav-reveal .flickity-button {
+  border-radius: 0px !important;
+}
+body.pack2 #main .widget {
+  border: 1px solid lightgray;
+}
+body.pack2 #main .widget .widget-title {
+  display: block;
+  padding: 10px;
+  font-size: 0.9em;
+}
+body.pack2 #main .widget .is-divider {
+  margin-left: 10px;
+}
+body.pack2 #main .widget > ul > li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+body.pack2 #main .widget ul.product_list_widget li + li, body.pack2 #main .widget > ul > li + li {
+  border-color: lightgray;
+}
+body.pack2 #main .widget ul.product_list_widget li a:not(.remove) {
+  display: flex;
+}
+body.pack2 #main .widget ul.product_list_widget li img {
+  position: static;
+  margin-right: 10px;
+}
+body.pack2 #main .widget ul.product_list_widget li a.remove {
+  right: 10px;
+}
+body.pack2 #main .widget ul.product_list_widget li {
+  padding: 10px;
+  margin: 0px;
+}
+body.pack2 #main .widget .woocommerce-mini-cart__buttons {
+  padding: 0 10px;
+}
+body.pack2 #main .widget .textwidget,
+body.pack2 #main .widget .gallery,
+body.pack2 #main .widget #calendar_wrap,
+body.pack2 #main .widget .tagcloud, body.pack2 #main .widget_nextend_social_login .is-divider + * {
+  padding: 10px;
+}
+body.pack2 #main .widget .searchform, body.pack2 #main .widget_price_filter form, body.pack2 #main .widget_layered_nav_filters > ul {
+  padding: 10px;
+  margin-bottom: 0px;
+}
+body.pack2 #main .widget ul.menu > li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+body.pack2 #main .widget ul.menu > li + li {
+  border-top-color: var(--primary-color);
+}
+body.pack2 .accordion {
+  border: 1px solid #ccc;
+  border-top: none;
+}
+body.pack2 .dark .accordion {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+body.pack2 .nav-pagination > li > span,
+body.pack2 .nav-pagination > li > a {
+  border-radius: 0px;
+  border-width: 1px;
+}
+body.pack2 .product-images {
+  border: 1px solid var(--primary-color);
+}
+body.pack2 .product-thumbnails .is-nav-selected a {
+  background-color: var(--primary-color);
+}
+body.pack2 .product-small.col .col-inner {
+  border: 1px solid var(--primary-color);
+  background: var(--primary-color);
+  color: white;
+  box-sizing: content-box;
+}
+body.pack2 .product-small.col .col-inner * {
+  color: white;
+}
+body.pack2 .product-small .box-text {
+  padding: 10px;
+}
+body.pack2 .badge-circle + .badge,
+body.pack2 .badge-outline,
+body.pack2 .badge-circle,
+body.pack2 .row-collapse .badge-circle {
+  margin-left: 0;
+}
+body.pack2 .box-text-products .product-title {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+body.pack2 #footer .is-divider {
+  visibility: hidden;
+}
+body.pack2 #footer .section-title-container {
+  margin-bottom: 0px;
+}
+body.pack2 #footer .section-title-normal,
+body.pack2 #footer .section-title-normal span {
+  border-bottom: none;
+}
+body.pack2 .ux-menu.ux-menu--divider-solid .ux-menu-link:not(:last-of-type) .ux-menu-link__link {
+  border-bottom: none;
+}/*# sourceMappingURL=pack2.css.map */

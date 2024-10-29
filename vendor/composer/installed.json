@@ -1,0 +1,43 @@
+{
+    "packages": [
+        {
+            "name": "quyle91/wp-database-helper",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/quyle91/wp-database-helper.git",
+                "reference": "ddb11b988ff8217de3fac004eb4b106bafced2ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/quyle91/wp-database-helper/zipball/ddb11b988ff8217de3fac004eb4b106bafced2ad",
+                "reference": "ddb11b988ff8217de3fac004eb4b106bafced2ad",
+                "shasum": ""
+            },
+            "time": "2024-10-27T04:21:11+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WpDatabaseHelper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "quyle91",
+                    "email": "quylv.dsth@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/quyle91/wp-database-helper/issues",
+                "source": "https://github.com/quyle91/wp-database-helper/tree/main"
+            },
+            "install-path": "../quyle91/wp-database-helper"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

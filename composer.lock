@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b31cd0d257b247b0fa31c71c47863c9f",
+    "packages": [
+        {
+            "name": "quyle91/wp-database-helper",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/quyle91/wp-database-helper.git",
+                "reference": "ddb11b988ff8217de3fac004eb4b106bafced2ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/quyle91/wp-database-helper/zipball/ddb11b988ff8217de3fac004eb4b106bafced2ad",
+                "reference": "ddb11b988ff8217de3fac004eb4b106bafced2ad",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WpDatabaseHelper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "quyle91",
+                    "email": "quylv.dsth@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/quyle91/wp-database-helper/issues",
+                "source": "https://github.com/quyle91/wp-database-helper/tree/main"
+            },
+            "time": "2024-10-27T04:21:11+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "quyle91/wp-database-helper": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

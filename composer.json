@@ -1,0 +1,32 @@
+{
+    "name": "quyle/administrator-z",
+    "autoload": {
+        "psr-4": {
+            "Adminz\\": "src/"
+        },
+        "files": [
+            "includes/functions/admin.php",
+            "includes/functions/customize.php",
+            "includes/functions/enqueue.php",
+            "includes/functions/functions.php",
+            "includes/functions/icon.php",
+            "includes/functions/media.php",
+            "includes/functions/options.php",
+            "includes/functions/php_override.php",
+            "includes/functions/quickcontact.php",
+            "includes/functions/taxonomy.php",
+            "includes/functions/user.php",
+            "includes/functions/woo-search.php",
+            "includes/functions/files.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "quyle91",
+            "email": "quylv.dsth@gmail.com"
+        }
+    ],
+    "require": {
+        "quyle91/wp-database-helper": "dev-main"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "quyle91/wp-database-helper",
+    "version": "1.0.3",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "WpDatabaseHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "quyle91",
+            "email": "quylv.dsth@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
