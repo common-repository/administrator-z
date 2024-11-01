@@ -1,6 +1,6 @@
 <?php 
 function adminz_admin_login_logo($image_id) {
-	$image_id = intval( value: $image_id );
+	$image_id = intval( $image_id );
 	if ( !wp_attachment_is_image( $image_id ) ) {
 		return;
 	}

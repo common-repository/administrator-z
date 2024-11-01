@@ -126,7 +126,7 @@ final class Flatsome {
 
 		// CSS
 		add_action('init', function(){
-			adminz_add_body_class( _class: 'blog_layout_divider_' . get_theme_mod( 'blog_layout_divider' ) );
+			adminz_add_body_class( 'blog_layout_divider_' . get_theme_mod( 'blog_layout_divider' ) );
 			if ( get_theme_mod( 'mobile_overlay_bg' ) ) {
 				adminz_add_body_class( 'adminz_fix_mobile_overlay_bg' );
 			}
